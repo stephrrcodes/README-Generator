@@ -63,10 +63,10 @@ function generateMarkdown(data) {
   * ${data.installation}
 
   ## Usage Information
-  * ${data.usage-information}
+  * ${data.usage}
 
   ## Contributor Guidelines
-  * ${data.contributor-guidelines}
+  * ${data.contributions}
 
   ## Test Instructions
   * ${data.test}
