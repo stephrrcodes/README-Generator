@@ -67,11 +67,20 @@ inquirer
         message: "What is the URL of the github repo?",
       },
     )
-
+module.exports = questions;
 // TODO: Create a function to write README file
 
+fs.writeFile('./generatedREADME.md', fileContent, err => {
+    
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        console.log(data);
+        var fileContent = generateMarkdown(data);
+        writeToFile(fileContent)
+    });
+}
 
 // Function call to initialize app
 init();
