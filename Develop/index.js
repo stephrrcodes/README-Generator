@@ -39,11 +39,11 @@ inquirer
     },
     {
         type: "checkbox",
-        message: "Choose a license to add to your project.",
+        message: "Choose a license to add to the project.",
         name: "license",
         choices: [
           "MIT",
-          "Boost",
+          "IBM",
           "Mozilla",
         ]
       },
@@ -69,7 +69,6 @@ inquirer
       },
     )
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}
