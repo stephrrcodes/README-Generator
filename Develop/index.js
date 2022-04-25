@@ -69,18 +69,19 @@ inquirer
     )
 module.exports = questions;
 // TODO: Create a function to write README file
+fs.writeFile('newREADME.md', markdownString, function(err) {
+    if(err) {
+        console.log(err)
+    }
+    else {
+        console.log('Success!')
+    }
+})
 
-fs.writeFile('./generatedREADME.md', fileContent, err => {
-    
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
-    .then(function(data) {
-        console.log(data);
-        var fileContent = generateMarkdown(data);
-        writeToFile(fileContent)
-    });
-}
-
+    inquirer.prompt(questions).then(function(data) {
+        const markdownString = generateMarkdown(data)
+    })}
 // Function call to initialize app
 init();

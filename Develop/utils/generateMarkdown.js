@@ -8,8 +8,9 @@ function renderlicenseBadge(license) {
   } else if (license === "Mozilla") {
     return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]";
   }  else {
-      badge = ' '
+      license = ' '
     }
+ return renderlicenseBadge
 }
 
 // TODO: Create a function that returns the license link
