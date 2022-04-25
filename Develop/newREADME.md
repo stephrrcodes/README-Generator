@@ -1,8 +1,8 @@
-# demo
+# Demo README.md
 
   undefined
   
-  jshdkhfk
+  This is an assignment for UCR bootcamp.
   
   ### Table of Contents
   1. [Description](#description)
@@ -14,7 +14,7 @@
   7. [Contact Info](#contact)
 
   ## Project Description
-  * jshdkhfk
+  * This is an assignment for UCR bootcamp.
 
   ## Installation Instructions
   * undefined
@@ -32,7 +32,7 @@
   * Licensed under the undefined
 
   ## Contact Information
-  Creator: sdkjfhsa
+  Creator: Stephanie Rodriguez
   * EMAIL: undefined
-  * Github: [jskdhfk;d](http://github.com/jskdhfk;d);
+  * Github: [stephrrcodes](http://github.com/stephrrcodes);
 }
